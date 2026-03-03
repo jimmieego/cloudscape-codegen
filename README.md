@@ -26,6 +26,22 @@ cp SKILL.md ~/.config/opencode/skills/cloudscape-codegen/SKILL.md
 
 Then reload your OpenCode session and ask for Cloudscape page generation tasks.
 
+## Import in Kiro
+
+Kiro supports Agent Skills and can import this skill from GitHub.
+
+Use this folder path in your repository as the import target:
+
+- `skills/cloudscape-codegen`
+
+In Kiro:
+
+1. Open Agent Steering and Skills.
+2. Click `+` and choose Import a skill.
+3. Select GitHub and paste the folder URL (or direct `SKILL.md` URL).
+
+After import, the skill is available for auto-activation and as `/cloudscape-codegen`.
+
 ## Validate skill quality
 
 Run the prompt suite in `examples/cloudscape-prompts.md` and score with `checks.md`.
