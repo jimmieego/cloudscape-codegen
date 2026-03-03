@@ -46,6 +46,13 @@ After import, the skill is available for auto-activation and as `/cloudscape-cod
 
 Run the prompt suite in `examples/cloudscape-prompts.md` and score with `checks.md`.
 
+Keep OpenCode and Kiro skill files in sync:
+
+```bash
+npm run sync:skill
+npm run check:skill
+```
+
 Recommended quick checks:
 
 ```bash
