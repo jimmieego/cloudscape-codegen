@@ -2,7 +2,7 @@
 name: cloudscape-codegen
 description: Generate Cloudscape Design System React + TypeScript UI code and page scaffolds with Cloudscape-first patterns, accessibility defaults, and production-ready state handling.
 metadata:
-  author: jimmie
+  author: jimmieego
   version: "0.2.0"
 ---
 
